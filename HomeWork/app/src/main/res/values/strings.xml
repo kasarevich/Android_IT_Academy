@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HomeWork</string>
+
+    <string name="home_work_1_main_button">Home work 1</string>
+    <string name="home_work_2_main_button">Home work 2</string>
+    <string name="home_work_3_main_button">Home work 3</string>
+    <string name="home_work_4_main_button">Home work 4</string>
+    <string name="home_work_5_main_button">Home work 5</string>
+    <string name="home_work_6_main_button">Home work 6</string>
+    <string name="home_work_7_main_button">Home work 7</string>
+    <string name="home_work_8_main_button">Home work 8</string>
+    <string name="home_work_9_main_button">Home work 9</string>
+    <string name="home_work_10_main_button">Home work 10</string>
+    <string name="home_work_11_main_button">Home work 11</string>
+    <string name="home_work_12_main_button">Home work 12</string>
+    <string name="home_work_13_main_button">Home work 13</string>
+    <string name="home_work_14_main_button">Home work 14</string>
+    <string name="home_work_15_main_button">Home work 15</string>
+
+    <string name="home_work_1_left_text_view">Left text</string>
+    <string name="home_work_1_right_text_view">Right text</string>
+    <string name="home_work_1_change_button">Change</string>
+
+
+</resources>
