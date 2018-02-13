@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_hw_2_flag_horiz_margin">24dp</dimen>
+    <dimen name="activity_hw_2_flag_vert_margin">12dp</dimen>
+    <dimen name="hw2_height_of_flag">210dp</dimen>
+    <dimen name="hw2_05of_flag_horiz">105dp</dimen>
+    <dimen name="hw2_03of_flag_horiz">70dp</dimen>
+    <dimen name="hw2_025of_flag_horiz">52dp</dimen>
+</resources>

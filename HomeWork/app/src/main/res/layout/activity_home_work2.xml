@@ -1,9 +1,205 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="by.it_academy.homework.homeWork2.HomeWork2Activity">
+    android:background="@color/home_work_2_scrollView_background">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_hw_2_flag_vert_margin"
+        android:layout_marginRight="@dimen/activity_hw_2_flag_vert_margin"
+        android:layout_marginTop="@dimen/activity_hw_2_flag_horiz_margin"
+        android:orientation="vertical">
+
+        <!-- Austria -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hw2_height_of_flag"
+            android:background="@color/red"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hw2_03of_flag_horiz"
+                android:layout_gravity="center"
+                android:background="@color/white">
+
+            </View>
+        </LinearLayout>
+
+        <!-- Poland -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hw2_height_of_flag"
+            android:layout_marginTop="@dimen/activity_hw_2_flag_vert_margin"
+            android:background="@color/red"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hw2_05of_flag_horiz"
+                android:layout_gravity="end"
+                android:background="@color/white">
+
+            </View>
+        </LinearLayout>
+
+        <!-- Italy -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hw2_height_of_flag"
+            android:layout_marginTop="@dimen/activity_hw_2_flag_vert_margin"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/hw2_height_of_flag"
+                android:layout_weight="1"
+                android:background="@color/green">
+
+            </View>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/hw2_height_of_flag"
+                android:layout_weight="1"
+                android:background="@color/white">
+
+            </View>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/hw2_height_of_flag"
+                android:layout_weight="1"
+                android:background="@color/red">
+
+            </View>
+        </LinearLayout>
+
+        <!-- Columbia -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hw2_height_of_flag"
+            android:layout_marginTop="@dimen/activity_hw_2_flag_vert_margin"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@color/yellow">
+
+            </View>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/blue">
+
+            </View>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/red">
+
+            </View>
+
+        </LinearLayout>
+
+
+        <!-- Madagascar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hw2_height_of_flag"
+            android:layout_marginTop="@dimen/activity_hw_2_flag_vert_margin"
+            android:orientation="horizontal">
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/hw2_height_of_flag"
+                android:layout_weight="2"
+                android:background="@color/green"
+                android:orientation="vertical">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/hw2_05of_flag_horiz"
+                    android:background="@color/red">
+
+                </View>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!-- Thailand -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hw2_height_of_flag"
+            android:layout_marginTop="@dimen/activity_hw_2_flag_vert_margin"
+            android:background="@color/red">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hw2_05of_flag_horiz"
+                android:layout_gravity="center"
+                android:background="@color/white">
+
+            </View>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hw2_025of_flag_horiz"
+                android:layout_gravity="center"
+                android:background="@color/blue">
+
+            </View>
+        </FrameLayout>
+
+        <!-- Denmark -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hw2_height_of_flag"
+            android:layout_marginBottom="@dimen/activity_hw_2_flag_vert_margin"
+            android:layout_marginTop="@dimen/activity_hw_2_flag_vert_margin"
+            android:background="@color/red">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hw2_025of_flag_horiz"
+                android:layout_gravity="center"
+                android:background="@color/white">
+
+            </View>
+
+            <View
+                android:layout_width="@dimen/hw2_025of_flag_horiz"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/hw2_025of_flag_horiz"
+                android:background="@color/white">
+
+            </View>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
