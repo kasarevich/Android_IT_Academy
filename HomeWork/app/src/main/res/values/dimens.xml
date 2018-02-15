@@ -3,6 +3,7 @@
 
     <dimen name="activity_hw_2_flag_horiz_margin">24dp</dimen>
     <dimen name="activity_hw_2_flag_vert_margin">12dp</dimen>
+    <dimen name="activity_hw_2_width_of_flag">350dp</dimen>
     <dimen name="hw2_height_of_flag">210dp</dimen>
     <dimen name="hw2_05of_flag_horiz">105dp</dimen>
     <dimen name="hw2_03of_flag_horiz">70dp</dimen>

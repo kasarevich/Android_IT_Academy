@@ -6,11 +6,12 @@
     android:background="@color/home_work_2_scrollView_background">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/activity_hw_2_width_of_flag"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/activity_hw_2_flag_vert_margin"
         android:layout_marginRight="@dimen/activity_hw_2_flag_vert_margin"
         android:layout_marginTop="@dimen/activity_hw_2_flag_horiz_margin"
+        android:layout_gravity="center_horizontal"
         android:orientation="vertical">
 
         <!-- Austria -->
