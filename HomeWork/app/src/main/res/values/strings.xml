@@ -21,5 +21,7 @@
     <string name="home_work_1_right_text_view">Right text</string>
     <string name="home_work_1_change_button">Change</string>
 
+    <string name="home_work_3_edit_text_hint">http://maxnews24.ru/wp-content/uploads/2017/07/org_fpyh40-768x512.jpg</string>
+
 
 </resources>

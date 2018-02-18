@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import by.it_academy.homework.homeWork1.HomeWork1Activity;
 import by.it_academy.homework.homeWork2.HomeWork2Activity;
+import by.it_academy.homework.homeWork3.HomeWork3Activity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -38,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, HomeWork2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        mButtonTask3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, HomeWork3Activity.class);
                 startActivity(intent);
             }
         });
