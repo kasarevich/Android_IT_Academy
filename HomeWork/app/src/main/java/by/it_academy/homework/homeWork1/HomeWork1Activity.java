@@ -1,7 +1,5 @@
 package by.it_academy.homework.homeWork1;
 
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -33,7 +31,7 @@ public class HomeWork1Activity extends AppCompatActivity implements View.OnClick
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_homework_1);
+        setContentView(R.layout.activity_homework1);
 
         mLeftTextView = findViewById(R.id.home_work_1_left_text_view);
         mRightTextView = findViewById(R.id.home_work_1_right_text_view);

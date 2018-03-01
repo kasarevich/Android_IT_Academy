@@ -10,6 +10,9 @@ import android.widget.Button;
 
 import by.it_academy.class_work_1.class_work3.ClassWork3Activity;
 import by.it_academy.class_work_1.class_work4.ClassWork4Activity;
+import by.it_academy.class_work_1.class_work5.ClassWork5Activity;
+import by.it_academy.class_work_1.class_work6.ClassWork6Activity;
+import by.it_academy.class_work_1.class_work7.ClassWork7Activity;
 import by.it_academy.myapplication.R;
 
 public class ClassWorkActivity extends Activity {
@@ -19,6 +22,9 @@ public class ClassWorkActivity extends Activity {
     private Button mButton3;
     private Button mButton4;
     private Button mButton5;
+    private Button mButton6;
+    private Button mButton7;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -28,6 +34,9 @@ public class ClassWorkActivity extends Activity {
 
         mButton3 = findViewById(R.id.class_work_3);
         mButton4 = findViewById(R.id.class_work_4);
+        mButton5 = findViewById(R.id.class_work_5);
+        mButton6 = findViewById(R.id.class_work_6);
+        mButton7 = findViewById(R.id.class_work_7);
 
         mButton3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +53,32 @@ public class ClassWorkActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        mButton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ClassWorkActivity.this, ClassWork5Activity.class);
+                startActivity(intent);
+            }
+        });
+        mButton6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ClassWorkActivity.this, ClassWork6Activity.class);
+                startActivity(intent);
+            }
+        });
+        mButton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ClassWorkActivity.this, ClassWork7Activity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
 
     }
 }

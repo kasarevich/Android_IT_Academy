@@ -20,7 +20,7 @@ public class HomeWork3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_work3);
+        setContentView(R.layout.activity_homework3);
 
         mButton = findViewById(R.id.download_button_HW3);
         mButton.setText(BuildConfig.BUTTON_HW3);
@@ -34,7 +34,7 @@ public class HomeWork3Activity extends AppCompatActivity {
                 if(!url.equals(null)){
                     Picasso.with(HomeWork3Activity.this)
                             .load(url)
-                            .placeholder(R.drawable.ic_arrow_downward_black_24dp)
+                            .placeholder(R.drawable.ic_arrow_downward_black_48dp_enabled)
                             .error(R.drawable.ic_error_outline_black_24dp)
                             .transform(new RoundTransformation(250))
                             .into(mImageView);

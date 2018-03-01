@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">HomeWork</string>
 
+    <string name="large_text_main">IT academy homework</string>
     <string name="home_work_1_main_button">Home work 1</string>
     <string name="home_work_2_main_button">Home work 2</string>
     <string name="home_work_3_main_button">Home work 3</string>
@@ -22,6 +23,11 @@
     <string name="home_work_1_change_button">Change</string>
 
     <string name="home_work_3_edit_text_hint">http://maxnews24.ru/wp-content/uploads/2017/07/org_fpyh40-768x512.jpg</string>
+
+    <string name="hw_4_view_the_owl_button">View the owl</string>
+    <string name="hw_4_view_the_watch_button">View the watch</string>
+    <string name="hw_4_start_anim">start animation</string>
+    <string name="hw_4_stop_anim">stop  animation</string>
 
 
 </resources>

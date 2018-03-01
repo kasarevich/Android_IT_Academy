@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="by.it_academy.homework">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+
 
     <application
         android:allowBackup="true"
@@ -11,16 +15,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AnimationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".homeWork1.HomeWork1Activity" />
-        <activity android:name=".homeWork2.HomeWork2Activity" />
-        <activity android:name=".homeWork3.HomeWork3Activity"></activity>
+        <activity
+            android:name=".homeWork1.HomeWork1Activity"
+            android:theme="@style/AnimationActivity"/>
+        <activity
+            android:name=".homeWork2.HomeWork2Activity"
+            android:theme="@style/AnimationActivity"/>
+        <activity
+            android:name=".homeWork3.HomeWork3Activity"
+            android:theme="@style/AnimationActivity"/>
+        <activity
+            android:name=".homeWork4.HomeWork4Activity"
+            android:theme="@style/AnimationActivity"/>
+        <activity
+            android:name=".homeWork4.OwlAnimActivity"
+            android:theme="@style/AnimationActivity"/>
+        <activity
+            android:name=".homeWork4.Homework4CustomWatchActivity"
+            android:theme="@style/AnimationActivity"/>
+        <activity android:name=".homeWork5.HomeWork5Activity"/>
     </application>
 
 </manifest>
