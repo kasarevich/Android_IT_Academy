@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="by.it_academy.homework.homeWork5.HomeWork5Activity">
 
+
     <ImageView
-        android:id="@+id/wifi_on_image"
+        android:id="@+id/wifi_state_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="48dp"
-        android:src="@drawable/ic_wifi_enable_48dp"
-        />
+        android:layout_marginTop="48dp" />
 
-    <ImageView
-        android:id="@+id/wifi_off_image"
+
+    <Button
+        android:id="@+id/button_wifi_hw5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="48dp"
-        android:src="@drawable/ic_wifi_disabled_48dp"
-        android:visibility="gone"/>
+        android:text="change"/>
 
-</FrameLayout>
+</LinearLayout>

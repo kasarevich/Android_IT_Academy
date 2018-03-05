@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.compileVersion
+    buildToolsVersion rootProject.buildToolsVersion
+    defaultConfig {
+        applicationId "by.it_academy.myapplication"
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.compileVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    flavorDimensions "typeVersion"
+    productFlavors {
+        dev {
+            dimension "typeVersion"
+            buildConfigField "String", "API_URL", "\"http//test\""
+        }
+        live {
+            dimension "typeVersion"
+            buildConfigField "String", "API_URL", "\"http//live\""
+        }
+
+    }
+
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+
+    def dependency = rootProject.ext.dependencies
+
+    implementation dependency.supportCompat
+    implementation dependency.supportV4
+    implementation dependency.supportDesign
+    implementation dependency.rxAndroid
+    implementation dependency.gson
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    annotationProcessor dependency.androidBindingCompiler
+
+
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Android_IT_Academy\ClassWork\Test\presentation\src\main\shaders"/></dataSet><dataSet config="dev"><source path="D:\Android_IT_Academy\ClassWork\Test\presentation\src\dev\shaders"/></dataSet><dataSet config="debug"><source path="D:\Android_IT_Academy\ClassWork\Test\presentation\src\debug\shaders"/></dataSet><dataSet config="devDebug"><source path="D:\Android_IT_Academy\ClassWork\Test\presentation\src\devDebug\shaders"/></dataSet></merger>

@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Mon Feb 12 20:56:52 EET 2018
-0.baseType=DIRECTORY
-0.base=D\:\\Android_IT_Academy\\ClassWork\\Test\\app\\build\\intermediates\\transforms\\dexMerger\\live\\debug\\0
-0.path=classes.dex
-0.set=DEX
-count=1

@@ -4,9 +4,8 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-
-
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -26,23 +25,31 @@
         </activity>
         <activity
             android:name=".homeWork1.HomeWork1Activity"
-            android:theme="@style/AnimationActivity"/>
+            android:theme="@style/AnimationActivity" />
         <activity
             android:name=".homeWork2.HomeWork2Activity"
-            android:theme="@style/AnimationActivity"/>
+            android:theme="@style/AnimationActivity" />
         <activity
             android:name=".homeWork3.HomeWork3Activity"
-            android:theme="@style/AnimationActivity"/>
+            android:theme="@style/AnimationActivity" />
         <activity
             android:name=".homeWork4.HomeWork4Activity"
-            android:theme="@style/AnimationActivity"/>
+            android:theme="@style/AnimationActivity" />
         <activity
             android:name=".homeWork4.OwlAnimActivity"
-            android:theme="@style/AnimationActivity"/>
+            android:theme="@style/AnimationActivity" />
         <activity
             android:name=".homeWork4.Homework4CustomWatchActivity"
-            android:theme="@style/AnimationActivity"/>
-        <activity android:name=".homeWork5.HomeWork5Activity"/>
+            android:theme="@style/AnimationActivity" />
+        <activity android:name=".homeWork5.HomeWork5Activity" />
+        <activity android:name=".homework6.HomeWork6Activity" />
+
+        <service
+            android:name=".homeWork5.WifiService"
+            android:enabled="true"
+            android:exported="false"></service>
+
+        <activity android:name=".homeWork7.HomeWork7Activity"></activity>
     </application>
 
 </manifest>

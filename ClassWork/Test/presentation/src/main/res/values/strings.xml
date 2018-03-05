@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IT Academy</string>
+    <string name="class_work_3">Class Work 3</string>
+    <string name="class_work_4">Class Work 4</string>
+    <string name="class_work_5">Class Work 5</string>
+    <string name="class_work_6">Class Work 6</string>
+    <string name="class_work_7">Class Work 7</string>
+    <string name="class_work_8">Class Work 8</string>
+
+    <string name="class_work_3_button_1">Button 1</string>
+    <string name="class_work_3_button_2">Button 2</string>
+    <string name="class_work_5_button">Local Broadcast</string>
+</resources>

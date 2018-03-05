@@ -15,6 +15,32 @@ buildscript {
     }
 }
 
+ext{
+    compileVersion = 27
+    buildToolsVersion = "27.0.2"
+    minSdkVersion = 18
+    targetSdkVersion = 27
+
+    androidBindingVersion = '3.0.0'
+    rxJavaVersion = '2.1.10'
+    rxAndroidVersion = '2.0.2'
+    gsonVersion = '2.8.2'
+
+
+    dependencies = [
+
+        supportCompat:"com.android.support:appcompat-v7:$buildToolsVersion",
+        supportV4:"com.android.support:support-v4:$buildToolsVersion",
+        supportDesign:"com.android.support:design:$buildToolsVersion",
+        rxJava: "io.reactivex.rxjava2:rxjava:$rxJavaVersion",
+        rxAndroid: "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion",
+        gson: "com.google.code.gson:gson:$gsonVersion",
+        androidBindingCompiler : "com.android.databinding:compiler:$androidBindingVersion"
+
+    ]
+
+}
+
 allprojects {
     repositories {
         google()

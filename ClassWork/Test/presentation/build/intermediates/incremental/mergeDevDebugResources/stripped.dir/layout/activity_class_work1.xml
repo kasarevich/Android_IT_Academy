@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f75f645c"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="drawable, UI elements"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/class_work_3"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/class_work_3"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom View, custom button"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/class_work_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/class_work_4"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BroadCastReceiver, Services"/>
+
+    <Button
+        android:id="@+id/class_work_5"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/class_work_5"
+        android:textAllCaps="false" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Списки, адаптеры, RecyclerView"/>
+    <Button
+        android:id="@+id/class_work_6"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/class_work_6"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragments"/>
+    <Button
+        android:id="@+id/class_work_7"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/class_work_7"
+        android:textAllCaps="false" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RX"/>
+    <Button
+    android:id="@+id/class_work_8"
+    style="@style/ButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/class_work_8"
+    android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/class_work_9"
+        style="@style/ButtonStyle"
+        android:paddingTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVVM"
+        android:textAllCaps="false" />
+</LinearLayout>

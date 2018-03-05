@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+       <import type = "android.view.View"/>
+        <variable
+
+            name="myEntity"
+            type="by.it_academy.class_work_1.MVVMEntity"/>
+
+
+    </data>
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="by.it_academy.class_work_1.MVVMExample">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#744646"
+        android:text="@{myEntity.text}"/>
+
+    <Button
+        android:id="@+id/button_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@{myEntity.textButton}"
+        android:visibility="@{myEntity.buttonVisible ? View.VISIBLE : View.GONE}"
+        android:onClick="@{myEntity::buttonClick}"/>
+
+
+</LinearLayout>
+
+
+</layout>
