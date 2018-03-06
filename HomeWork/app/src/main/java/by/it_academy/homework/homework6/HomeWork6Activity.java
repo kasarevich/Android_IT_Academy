@@ -62,7 +62,6 @@ public class HomeWork6Activity extends AppCompatActivity {
         mEditText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
             }
 
             @Override
@@ -72,7 +71,6 @@ public class HomeWork6Activity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-
             }
         });
 
@@ -102,7 +100,6 @@ public class HomeWork6Activity extends AppCompatActivity {
         public int getItemCount() {
             return customers.size();
         }
-
         public void setCustomers(ArrayList<Customer> customers){
             this.customers = customers;
         }
@@ -125,8 +122,6 @@ public class HomeWork6Activity extends AppCompatActivity {
         }
 
         public void bind(Customer customer) {
-
-
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
             if (customer != null) {
                 id.setText("id:" + String.valueOf(customer.getId()));
@@ -151,4 +146,9 @@ public class HomeWork6Activity extends AppCompatActivity {
     }
 
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mLocalBroadcastManager.unregisterReceiver(mBroadcastReceiver);
+    }
 }

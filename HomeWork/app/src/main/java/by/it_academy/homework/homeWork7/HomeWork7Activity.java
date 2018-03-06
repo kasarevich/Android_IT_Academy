@@ -7,7 +7,6 @@ import android.view.View;
 
 import by.it_academy.homework.R;
 import io.reactivex.Observable;
-import io.reactivex.Observer;
 import io.reactivex.subjects.PublishSubject;
 
 public class HomeWork7Activity extends AppCompatActivity implements  PublishObserverContract{

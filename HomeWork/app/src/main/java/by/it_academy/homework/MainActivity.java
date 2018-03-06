@@ -20,6 +20,7 @@ import by.it_academy.homework.homeWork3.HomeWork3Activity;
 import by.it_academy.homework.homeWork4.HomeWork4Activity;
 import by.it_academy.homework.homeWork5.HomeWork5Activity;
 import by.it_academy.homework.homeWork7.HomeWork7Activity;
+import by.it_academy.homework.homeWork8.HomeWork8Activity;
 import by.it_academy.homework.homework6.HomeWork6Activity;
 
 
@@ -91,11 +92,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        mButtons.get(7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, HomeWork8Activity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
     private void initButtons(){
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 8; i++) {
             mButtons.add(new Button(this));
         }
 
@@ -106,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
         mButtons.set(4,(Button) findViewById(R.id.home_work_5_main_button));
         mButtons.set(5,(Button) findViewById(R.id.home_work_6_main_button));
         mButtons.set(6,(Button) findViewById(R.id.home_work_7_main_button));
+        mButtons.set(7,(Button) findViewById(R.id.home_work_8_main_button));
     }
 
     private void animateViews(){

@@ -90,7 +90,7 @@ public class ClassWorkActivity extends Activity {
         mButton9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ClassWorkActivity.this, MVVMExample.class);
+                Intent intent = new Intent(ClassWorkActivity.this, BindingExample.class);
                 startActivity(intent);
             }
         });

@@ -35,7 +35,7 @@
         <activity android:name="by.it_academy.class_work_1.class_work7.ClassWork7Activity" />
         <activity android:name="by.it_academy.class_work_1.class_work7.ClassWork7SharedActivity" />
         <activity android:name="by.it_academy.class_work_1.class_work8.ClassWork8Activity" />
-        <activity android:name="by.it_academy.class_work_1.MVVMExample"></activity>
+        <activity android:name="by.it_academy.class_work_1.BindingExample"></activity>
     </application>
 
 </manifest>

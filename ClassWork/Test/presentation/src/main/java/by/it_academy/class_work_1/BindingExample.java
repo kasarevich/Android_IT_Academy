@@ -7,9 +7,9 @@ import android.os.Bundle;
 import by.it_academy.myapplication.R;
 import by.it_academy.myapplication.databinding.ActivityMvvmexampleBinding;
 
-public class MVVMExample extends AppCompatActivity {
+public class BindingExample extends AppCompatActivity {
 
-    private static final String TAG = MVVMExample.class.getSimpleName();
+    private static final String TAG = BindingExample.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

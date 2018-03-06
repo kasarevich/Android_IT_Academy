@@ -47,9 +47,10 @@
         <service
             android:name=".homeWork5.WifiService"
             android:enabled="true"
-            android:exported="false"></service>
+            android:exported="false" />
 
-        <activity android:name=".homeWork7.HomeWork7Activity"></activity>
+        <activity android:name=".homeWork7.HomeWork7Activity" />
+        <activity android:name=".homeWork8.HomeWork8Activity"></activity>
     </application>
 
 </manifest>
